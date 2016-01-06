@@ -1,1 +1,1 @@
-﻿goog.provide('waffle.cone');
+goog.provide('waffle.cone');

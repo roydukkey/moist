@@ -1,1 +1,1 @@
-﻿goog.provide('ice.cream');
+goog.provide('ice.cream');
