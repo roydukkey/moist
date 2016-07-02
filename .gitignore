@@ -1,0 +1,11 @@
+﻿# User-specific files
+*.vs
+*.user
+
+# Package Managers
+node_modules
+
+# Build Artifacts
+[Bb]in
+[Oo]bj
+*.lock.json
