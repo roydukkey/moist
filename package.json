@@ -1,0 +1,22 @@
+{
+  "name": "perbyte-test",
+  "version": "1.0.0",
+  "description": "Includes my solutions for three questions that were given for a final interview.",
+  "author": "roydukkey",
+  "license": "ISC",
+  "private": true,
+
+  "homepage": "https://github.com/roydukkey/moist/tree/perbyte-test#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roydukkey/moist.git#perbyte-test"
+  },
+  "bugs": {
+    "url": "https://github.com/roydukkey/moist/issues"
+  },
+
+  "scripts": {
+    "solution-1": "node solution-1/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
