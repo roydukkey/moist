@@ -15,9 +15,14 @@
     "url": "https://github.com/roydukkey/moist/issues"
   },
 
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  },
+
   "scripts": {
     "solution-1": "node solution-1/index.js",
     "solution-2": "node solution-2/index.js",
+    "solution-3": "node solution-3/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

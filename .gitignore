@@ -1,0 +1,6 @@
+# Package Managers
+node_modules
+lib
+npm-debug.log
+*.lock.json
+*-lock.json
