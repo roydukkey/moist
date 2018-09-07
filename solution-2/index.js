@@ -48,7 +48,7 @@ function getExtractionPoint(elevationMap, currentCoordinates, moves) {
     let yMap = elevationMap[iY];
 
     for (let iX = Math.max(0, x - moves); iX < Math.min(yMap.length, x + moves + 1); iX++) {
-      if(iY == y & iX == x) continue;
+      if(iY == y && iX == x) continue;
 
       if (curElevation < yMap[iX]) {
         curElevation = yMap[iX];
