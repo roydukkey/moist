@@ -71,7 +71,8 @@
             </td>\
             <td>\
               {{ user.address.street }}, {{ user.address.suite }}<br />\
-              {{ user.address.city }}, {{ user.address.zipcode }}\
+              {{ user.address.city }}, {{ user.address.zipcode }}<br />\
+              <a v-bind:href="\'https://www.google.com/maps/?q=\' + user.address.geo.lat + \',\' + user.address.geo.lng" target="_blank">View Map</a>\
             </td>\
             <td>\
               Email: <a v-bind:href="\'mailto:\' + user.email">{{ user.email }}</a><br />\
