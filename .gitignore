@@ -1,0 +1,13 @@
+# User-specific files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+Properties/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# OS files
+.DS_Store
+Thumbs.db
