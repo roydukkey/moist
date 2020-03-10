@@ -10,8 +10,7 @@ namespace TestConsole
 
 			if (isPostCrisis) {
 				Console.WriteLine("Hello World!");
-			}
-			else {
+			} else {
 				Console.WriteLine("Welcome to the Multiverse!");
 			}
 		}
