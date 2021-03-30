@@ -1,2 +1,2 @@
-# moist
-A collection of botched, squishy code example for reference. Must select branch.
+# CSpell Bug
+Illustrates an issue documented at https://github.com/streetsidesoftware/cspell/issues/1114
