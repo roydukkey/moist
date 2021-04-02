@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "test:before": "npx cspell@5.3.1 --config './.vscode/cSpell.json' '**/{.*/**/,.*/**/.,,.}*'",
-    "test:after": "npx cspell@5.3.2 --config './.vscode/cSpell.json' '**/{.*/**/,.*/**/.,,.}*'"
+    "test:after": "npx cspell@5.3.2 --config './.vscode/cSpell.json' '**/{.*/**/,.*/**/.,,.}*'",
+    "test:workaround": "npx cspell@5.3.2 --config './.vscode/cSpell-workaround.json' '**/{.*/**/,.*/**/.,,.}*'"
   },
   "dependencies": {
     "clean-package": "^1.0.1"
