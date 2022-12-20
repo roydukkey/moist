@@ -1,0 +1,23 @@
+{
+    "name": "theme",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "description": "...",
+    "main": "./index.scss",
+    "exports": {
+        ".": "./index.scss",
+        "./index.scss": "./index.scss",
+        "./main.css": "./main.css"
+    },
+    "files": [
+        "/assets",
+        "/dist",
+        "/index.scss",
+        "/main.css"
+    ],
+    "devDependencies": {
+        "@tsconfig/node16-strictest": "^1.0.4",
+        "style-dictionary": "^3.7.1",
+        "typescript": "^4.9.3"
+    }
+}

@@ -1,0 +1,10 @@
+@use './dist/web/fonts';
+@use './dist/web/variables';
+
+@mixin scope($selector) {
+    @include fonts.use;
+
+    #{$selector} {
+        @include variables.use;
+    }
+}

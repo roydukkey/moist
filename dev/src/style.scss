@@ -1,0 +1,17 @@
+@use 'normalize.css';
+
+// 1. Does not work
+@use 'theme';
+@include theme.scope(':root');
+
+// 2. Works
+// @import 'theme/main.css';
+
+body {
+    padding: 0 1rem;
+}
+
+#app {
+    max-width: 960px;
+    margin: 0 auto;
+}
