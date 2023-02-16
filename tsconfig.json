@@ -1,0 +1,9 @@
+{
+	"extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+	"files": [
+		"./src/main.ts"
+	],
+	"compilerOptions": {
+		"outDir": "./dist"
+	}
+}
