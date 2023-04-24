@@ -1,6 +1,7 @@
 {
     "extends": "@vue/tsconfig/tsconfig.json",
     "compilerOptions": {
+        "moduleResolution": "Node16",
         "lib": [
             "ESNext",
             "DOM"
