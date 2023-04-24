@@ -1,0 +1,11 @@
+{
+    // A notification is given for the following recommendations when the workspace is opened. This notification only appears when the recommendation is not
+    // installed and can be silenced at anytime.
+    // http://go.microsoft.com/fwlink/?LinkId=827846
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
+        "Vue.volar"
+    ]
+}
